@@ -1,0 +1,72 @@
+* {
+    margin: 16px;
+  }
+  
+  body {
+    background-color: aliceblue;
+    font-family: sans-serif, georgia, monospace;
+  }
+  
+  main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin-top: 60px;
+  }
+  
+  form {
+    background-color: black;
+    width: 258px;
+    height: 490px;
+    border-radius: 22px;
+    padding: 2px;
+  }
+  #circle-div {
+    border-radius: 100%;
+    background-color:white;
+    height: 12px;
+    width: 12px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #phone-screen {
+    background-color: white;
+    height: 375px;
+    margin-bottom: 0px;
+  } 
+  
+  p {
+    padding-top: 25px;
+  }
+  
+  #results-div {
+    word-wrap: break-word;
+  }
+  
+  input {
+    margin-top: 5px;
+    padding: 15px;
+    border-radius: 7px;
+    border-style: solid;
+    text-align: center;
+  }
+  
+  p, input, #results-div {
+    font-family: monospace;
+  }
+  
+  p, #results-div {
+    font-size: 16px;
+  }
+  
+  button {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 14px;
+    cursor: pointer;
+  }

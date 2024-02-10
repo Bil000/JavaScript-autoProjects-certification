@@ -1,0 +1,92 @@
+body {
+    background-color:rgba(50, 48, 48, 0.8);
+    font-family: monospace;
+    color:aliceblue;
+}
+#calculator {
+    margin:auto;
+    background-color: rgba(23, 23, 23, 0.838);
+    width: 50%;
+    height: 35%;
+    padding: 25px;
+    overflow: hidden;
+}
+
+#screen {
+    width: 100%;
+    height: 70px;
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: flex-start;
+    justify-items: right;
+    align-items: center;
+    font-size: large;
+}
+
+#operationMain {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    width: auto;
+    display: grid;
+    list-style-type: none;
+    gap: 7px ;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+li {
+    background-color: rgba(65, 63, 63, 0.838);
+    padding: 15px;
+    width: 5vw;
+    text-align: center;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.blue {
+    background-color: rgb(44, 100, 131);
+}
+
+.operatorColor {
+    background-color: rgba(102, 93, 93, 0.838);
+}
+
+.red {
+    background-color:brown;
+}
+
+/* let screen = document.getElementById('screen');
+
+function getButtonValue() {
+    var element = event.target.innerHTML
+    var insert = document.createElement("p");
+    if (element == '='){
+        insert.innerHTML = `${operationLogic()}`;
+    }
+    else if (element == 'C') {
+        screen.textContent = '';
+    }
+    else {
+        insert.innerHTML = `${element}`;
+    }
+    screen.appendChild(insert);
+   };
+
+function operationLogic() {
+   let p = Array.from(screen.querySelectorAll('p'))
+   .map(element => element.innerHTML.trim())
+   .join('');
+   let deleteScreen = screen.textContent = '';
+    try {
+        let result = math.evaluate(p);
+        deleteScreen;
+        return `${result}` }
+    catch(error){
+        deleteScreen;
+        return 'Insert a valid mathematical expression'
+    }
+   } */

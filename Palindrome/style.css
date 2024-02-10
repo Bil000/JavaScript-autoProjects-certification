@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(64, 121, 64);
+    color: aliceblue;
+    font-family: helvetica, sans-serif;
+  }
+  
+  main {
+    margin-top: 10em;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #card{
+   margin-top: 2em;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: rgb(103, 179, 103);
+  }
+
+  #inBlock {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    box-shadow: 6px 8px 1px 0px rgb(54, 97, 54)
+  }
+  
+  form, #card{
+   max-width: 80%;
+   width: 25em;
+   padding: 20px;
+   border-radius: 12px;
+  }
+  
+  input {
+    width:250px;
+    max-width: 90%;
+    margin: 3px;
+  }
+  button
+   {
+     width: 77px;
+     max-width: 90%;
+   }
+  
+  input, button {
+    padding: 6px;
+  }
+  
+  p {
+    font-size: 19px;
+  }
+  
+  #result {
+    padding-top: 5px;
+    width: 100%;
+  }

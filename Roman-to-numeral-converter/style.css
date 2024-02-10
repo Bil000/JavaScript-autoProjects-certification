@@ -1,0 +1,58 @@
+body {
+  background-image: url(images/roman-background.jpg);
+  background-color: rgb(160, 15, 15);
+  background-size: cover;
+  overflow: hidden;
+  font-family: 'sans-serif','Times New Roman';
+  font-weight: 550;
+  color: #3c2f19;
+  font-size: 21px;
+  text-shadow: 1px 1px;
+}
+
+main {
+  text-align: center;
+  margin-top: 3em;
+  width: 100%;
+}
+
+form {
+  height: 210px;
+  display: inline-block;
+}
+
+form, #output {
+  background-color: #d59a2e;
+  max-width: 90%;
+  width: 450px;
+  border: 5px solid #b88528 !important;
+  opacity: 0.93;
+}
+
+#output {
+  display: none;
+  word-wrap: break-word;
+  margin: auto;
+}
+
+input{
+  background-color: rgb(106, 9, 9);
+  padding: 14px;
+  border-color: #b88528;
+  color: aliceblue;
+  font-size: 23px;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(160, 15, 15);
+  padding: 11px;
+  border-color: rgb(141, 16, 16);
+}
+
+input, button {
+  width: 75%;
+  margin: 3px;
+  border-style:solid;
+  border-width: 4px;  
+}  

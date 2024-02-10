@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculator</title>
+</head>
+<body>
+    <div id="calculator">
+      <div id=screen></div>
+      <script src="https://unpkg.com/mathjs/lib/browser/math.js"></script>
+        <div id="operationMain">
+            <ul> 
+              <li class="operatorColor" onclick="getButtonValue()">{</li>
+              <li class="operatorColor" onclick="getButtonValue()">}</li>
+              <li class="operatorColor" onclick="getButtonValue()">(</li>
+              <li class="operatorColor" onclick="getButtonValue()">)</li>
+              <li class="blue" onclick="getButtonValue()">=</li>
+              <li class="operatorColor" onclick="getButtonValue()">+</li>
+                <li class="operatorColor" onclick="getButtonValue()">-</li>
+                <li class="operatorColor" onclick="getButtonValue()">*</li>
+                <li class="operatorColor" onclick="getButtonValue()">/</li>
+                <li class="operatorColor" onclick="getButtonValue()">%</li> 
+                <li class="operatorColor" onclick="getButtonValue()">.</li> 
+                <li onclick="getButtonValue()">0</li>
+                <li onclick="getButtonValue()">1</li>
+                <li onclick="getButtonValue()">2</li>
+                <li onclick="getButtonValue()">3</li>
+                <li onclick="getButtonValue()">4</li>
+                <li onclick="getButtonValue()">5</li>
+                <li onclick="getButtonValue()">6</li>
+                <li onclick="getButtonValue()">7</li>
+                <li onclick="getButtonValue()">8</li>
+                <li onclick="getButtonValue()">9</li>
+                <li onclick="getButtonValue()">00</li>
+                <li class="red" onclick="getButtonValue()">C</li>       
+            </ul>
+       </div>
+      </div> 
+      <script src="javaScript/script.js"></script>
+</body>
+</html>
