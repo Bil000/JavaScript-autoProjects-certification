@@ -1,0 +1,55 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 25em;
+  max-width: 85%;
+  height: 10em;
+  background-color: aliceblue;
+  text-align: center;
+  padding: 10px;
+  font-size: 22px;
+}
+
+#authorDiv {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding: 4px;
+}
+
+#quoteDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 6px;
+  word-wrap: break-word;
+}
+
+a, button {
+  cursor: pointer;
+  font-style: none;
+  padding: 8px;
+  background-color: rgb(100, 175, 100);
+  border-width: 0px;
+  color: aliceblue;
+  font-weight: 490;
+}
+
+button {
+  font-size: 14px;
+}
+
+p {
+  font-size: 24px;
+}
+
+span {
+  font-size: 15px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+}
