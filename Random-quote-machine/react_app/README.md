@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+------creator notes--- 
+
+This project is my first interation with React.
+Where I tried to apply the concept of OOP at React
+where I also tried to practice the concept of asynchronous data, also known as API. though using an async request to that.
