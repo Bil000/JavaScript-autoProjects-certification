@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>markdown-previewer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/260c211569.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <fieldset id="">
+            <legend>Preview</legend>
+            <div id="fullscreenOrNotDiv">
+                <button><i class="fa-solid fa-up-right-and-down-left-from-center"></i></button>
+            </div>
+            <hr>
+            <div id="preview"></div>
+        </fieldset>
+        <fieldset id="editorField">
+            <legend>editor</legend>
+            <textarea id="editor">## Quick tutorial for the Markdown library.
+                
+### - HEADINGS:
+                                               
+To use the headings tags from h1 to h6, you have to write down "#" several times to get the subheading level you want. If I want an H4 to render in the preview window, I will have to write # four times to achieve that, much like the example below:
+                                
+#### "I am a H4 tag"
+                                
+### - (UN) ORDERED LISTS:
+                                
+To write an unordered list you have to type "-" right before the content you want to behave as an li:
+                              
+- unordered item one
+- unordered item two
+- unordered item three
+                                
+The same concept applies to ordered lists, however, the only different thing is that we will use "1." rather than "-"
+                               
+1. ordered item one
+1. ordered item two
+1. ordered item three
+                                
+### - ITALIC, BOLD AND CROSSED TEXT
+                                
+- <h4>ITALIC</h4>
+                                
+To be able to do an italic text you will have to write this alphanumeric symbol "_" before and after the text you want to transform into italic.
+                                
+_"This is an Italic text."_
+                                
+- <h4>BOLD</h4> 
+                                
+The same thing also applies to the bold but the only change is that you will use "**" before and after the text you want.
+                                
+"**I am a bold text.**"
+                                
+- <h4>CROSSED</h4>
+                                
+We're not finished yet, we can also make text crossed by putting "~~" before and after the text we targeted in the same way we did to the two last two sections.
+                                
+"~~That is a crossed text.~~"
+                                
+The good thing is that you can use crossed, bold and italic methods for the same text as in the example shown below:
+                                
+"~~**_This text is both bold and italic but also crossed_**.~~"
+                                
+### - LINKS
+                               
+The syntax to make a text relies on two concepts description and target, the description of the text will go inside two brackets while the target aka destination goes into parentheses.
+                                
+This text leads to [unknown](https://github.com/Bil000) places...
+                                
+You can also make images work with this hyperlink syntax:
+                                
+![Transparent logo](https://freebiehive.com/wp-content/uploads/2024/03/Pitbull-Ballerina-Dancing-PNG.jpg)
+                
+// supposed to be a transparent background 
+                                
+### - TABLES
+                
+Tables are pure and simple headers with a finite or infinite number of cells for each. The way it is made in marked is as intuitive as doing it in HTML, you will just need an "|" to separate each segment in the table, however, to define where the header ends and where the cells start through the use of "-" as the example shown bellow:
+                
+Wild Header | Crazy Header | Another Header?
+-| - | -
+Your content | be here, and it | can be here
+And here. | Okay. | I think we get it.
+                
+### - BLOCK CODE
+                
+Last but not less important, we have block codes where we can write vanilla Java, C++, Python, and whatever and it will behave as an actual code syntax, for multiple lines of code we can write it like this:
+                
+```
+// this is multi-line code:
+                
+function anotherExample(firstLine, lastLine) {
+    if (firstLine == '```' && lastLine == '```') {
+        return multiLineCode;
+    }
+```
+                
+and for single lines we use it like this
+                
+`console.log("Hello World");`
+                
+With that we finished our markdown tutorial, thank you for reading!</textarea>
+        </fieldset>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

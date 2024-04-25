@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>25 + 5 Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/260c211569.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <h1>25 + 5 Clock</h1>
+        <div id="clockControls">
+            <div id="breakWrapper">
+                <section>
+                    <h3>Break-Length</h3>
+                </section>
+                <section class="sectionWrapper">
+                    <div id="breakDecrement" class="arrows"><i class="fa-solid fa-chevron-down"></i></div>
+                    <div id="breakLength"></div>
+                    <div id="breakIncrement" class="arrows"><i class="fa-solid fa-chevron-up"></i></div>
+                </section>
+            </div>
+            <div id="sessionWrapper">
+                <section>
+                    <h3>Session-Length</h3>
+                </section>
+                <section class="sectionWrapper">
+                    <div id="sessionDecrement" class="arrows"><i class="fa-solid fa-chevron-down"></i></div>
+                    <div id="sessionLength"></div>
+                    <div id="sessionIncrement" class="arrows"><i class="fa-solid fa-chevron-up"></i></div>
+                </section>
+            </div>
+        </div>
+        <div id="clockWrapper">
+            <h4>Break</h4>
+            <div id="timeLeft"></div>
+        </div>
+        <div id="displayControls">
+            <div id="startStop"><i class="fa-solid fa-play"></i></div>
+            <div id="reset"><i class="fa-solid fa-arrows-rotate"></i></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

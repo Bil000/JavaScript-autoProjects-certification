@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(218, 181, 137); 
+}
+
+main {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    padding: 12px;
+}
+
+fieldset {
+    background-color: rgb(220, 198, 172);
+    max-width: 30%;
+}
+
+legend {
+    font-weight: 700;
+}
+
+fieldset, textarea, #preview {
+    min-height: 350px;
+    font-family: Geneva, Tahoma, sans-serif
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+}
+
+#editor {
+    width: 40em;
+}
+
+#fullscreenOrNotDiv {
+   display: flex;
+   justify-content: end;
+}
+
+hr {
+    background-color: black;
+}
+
+#preview {
+    width: 60em;
+    background-color: bisque;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+button {
+    padding: 10px;
+}

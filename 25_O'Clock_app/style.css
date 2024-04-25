@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(100, 100, 211);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    color:antiquewhite
+}
+
+main {
+    text-align: center;
+    width: 600px;
+    max-width: 70%;
+}
+
+#clockControls {
+    padding: 16px;
+}
+
+.sectionWrapper {
+   padding: 30px;
+}
+
+.sectionWrapper, #clockControls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#clockWrapper {  
+    border: 7px solid rgb(119, 112, 112) !important;
+    border-radius: 3%;
+    background-color: rgb(74, 74, 74);
+    padding: 50px;
+    width: 30% ;
+    margin: auto;
+}
+
+#displayControls {
+    width: 20% ;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+}
+
+i {
+    cursor: pointer;
+}
+
+i:active {
+    color: rgb(200, 191, 179);
+}
+
+#timeLeft {
+    font-size: 45px;
+}
