@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <title>Pokemon Search Api</title>
+    <link res="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <h1>Pokémon Search Api</h1>
+      <form>
+         <div id="search_div"><p>Search your favorite Pokémon by name or ID</p>
+         <input type="text" id="search-input" required>
+         <button id="search-button">Search</button></div>
+         <div>
+            <ul><li id="pokemon-name"></li><li id="pokemon-id"></li></ul>
+            <div id="img-pok"></div>
+            <ul><li id="weight"></li><li id="height"></li></ul>
+            <div id="types"></div>
+         </div>
+            <table>
+              <tr>
+                <th>base</th>
+                <th id="stats">stats</th>
+              </tr>
+              <tr>
+                 <td>HP</td>
+                 <td id="hp"></td>
+              </tr>
+              <tr>
+                 <td>ATTACK</td>
+                 <td id="attack"></td>
+              </tr>
+              <tr>
+                 <td>DEFENSE</td>
+                 <td id="defense"></td>
+              </tr>
+              <tr>
+                 <td>SPECIAL-ATTACK</td>
+                 <td id="special-attack"></td>
+              </tr>
+              <tr>
+                 <td>SPECIAL-DEFENSE</td>
+                 <td id="special-defense"></td>
+              </tr>
+              <tr>
+                 <td>SPEED</td>
+                 <td id="speed"></td>
+              </tr>
+            </table>
+      </form> 
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
